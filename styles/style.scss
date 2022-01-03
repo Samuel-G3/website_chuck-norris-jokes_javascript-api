@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Rye&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Rye&display=swap");
+* {
+  font-family: "rye", sans-serif;
+  text-align: center;
+  color: blanchedalmond;
+}
+
+// .title {
+//     color: blanchedalmond;
+//     font-size: 70px;
+//     letter-spacing: 3px;
+//     display: flex;
+//     justify-content: center;
+//     text-align: center;
+//     flex-direction: column;
+
+// }
+
+// .title2{
+//     color: red;
+//     font-size: 65px;
+// }
+h1 {
+  color: blanchedalmond;
+  font-size: 70px;
+  letter-spacing: 3px;
+}
+.h1 {
+  background-color: rgb(17, 17, 17);
+}
+span {
+  color: red;
+  font-size: 70px;
+  font-family: "Just Another Hand", sans-serif;
+  letter-spacing: 3px;
+}
+
+h2 {
+  color: blanchedalmond;
+  font-size: 30px;
+  letter-spacing: 3px;
+  // margin: 10px 500px 0px 0px ;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+}
+
+.joke {
+  width: 500px;
+  height: 300px;
+  margin-top: 100px;
+}
+
+.image {
+  background-image: url("https://i.ibb.co/XYVST0X/2.jpg");
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 900px;
+}
+
+p {
+  color: blanchedalmond;
+  font-size: 40px;
+  font-family: "rye", sans-serif;
+
+  letter-spacing: 3px;
+}
+.btn {
+  font-family: "Just Another Hand", sans-serif;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  border: none;
+  background: none;
+  letter-spacing: 3px;
+  color: red;
+  &:hover {
+    color: blanchedalmond;
+  }
+}
+.footer {
+  background-color: rgb(17, 17, 17);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: row;
+  margin-top: 170px;
+  p {
+    color: red;
+    font-size: 15px;
+  }
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+}
+
+.linkedin img {
+  background-color: rgb(200, 200, 200);
+  padding: 5px;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 15px;
+  &:hover {
+    border: solid red;
+    border-width: 5px;
+    background-color: white;
+  }
+}
+
+.github img {
+  background-color: rgb(200, 200, 200);
+  padding: 5px;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  &:hover {
+    border: solid red;
+    border-width: 5px;
+    background-color: white;
+  }
+}
